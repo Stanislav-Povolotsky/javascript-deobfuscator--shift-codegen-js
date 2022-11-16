@@ -33,6 +33,10 @@ function seq(...reps) {
   return new Seq(reps);
 }
 
+function seq_args(reps) {
+  return new Seq(reps);
+}
+
 function isEmpty(codeRep) {
   return codeRep instanceof Empty || codeRep instanceof Linebreak || codeRep instanceof Seq && codeRep.children.every(isEmpty);
 }
@@ -401,7 +405,7 @@ class ExtensibleCodeGen {
       return seq(this.sep(before), this.t(','), this.sep(after), p);
 
     });
-    return seq(...pieces);
+    return seq_args(pieces);
   }
 
   semiOp() {
