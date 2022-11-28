@@ -1,4 +1,4 @@
-const reduce = require('shift-reducer').default;
+const reduce = require('sp-shift-reducer').default;
 const { TokenStream } = require('./token-stream');
 const MinimalCodeGen = require('./minimal-codegen');
 

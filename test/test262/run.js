@@ -1,7 +1,7 @@
 'use strict';
 
-const parseScriptWithLocation = require('shift-parser').parseScriptWithLocation;
-const parseModuleWithLocation = require('shift-parser').parseModuleWithLocation;
+const parseScriptWithLocation = require('sp-shift-parser').parseScriptWithLocation;
+const parseModuleWithLocation = require('sp-shift-parser').parseModuleWithLocation;
 const codegen = require('../..');
 const fs = require('fs');
 const path = require('path');

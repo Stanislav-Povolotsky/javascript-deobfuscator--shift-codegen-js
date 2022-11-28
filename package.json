@@ -1,12 +1,12 @@
 {
-  "name": "shift-codegen",
+  "name": "sp-shift-codegen",
   "version": "8.0.0",
   "description": "code generator for Shift format ASTs",
   "author": "Shape Security",
-  "homepage": "https://github.com/shapesecurity/shift-codegen-js",
+  "homepage": "https://github.com/Stanislav-Povolotsky/javascript-deobfuscator--shift-codegen-js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shapesecurity/shift-codegen-js.git"
+    "url": "https://github.com/Stanislav-Povolotsky/javascript-deobfuscator--shift-codegen-js.git"
   },
   "main": "src/index.js",
   "files": [
@@ -20,7 +20,7 @@
   "dependencies": {
     "esutils": "^2.0.2",
     "object-assign": "^4.1.0",
-    "shift-reducer": "7.0.0"
+    "sp-shift-reducer": "^7.0.0"
   },
   "devDependencies": {
     "eslint": "^5.8.0",
@@ -28,7 +28,7 @@
     "expect.js": "0.3.1",
     "mocha": "^8.1.3",
     "shift-parser-expectations": "2019.0.0",
-    "shift-parser": "8.0.0"
+    "sp-shift-parser": "8.0.0"
   },
   "keywords": [
     "Shift",
@@ -43,7 +43,7 @@
     "tree"
   ],
   "bugs": {
-    "url": "https://github.com/shapesecurity/shift-codegen-js/issues"
+    "url": "https://github.com/Stanislav-Povolotsky/javascript-deobfuscator--shift-codegen-js/issues"
   },
   "license": "Apache-2.0"
 }

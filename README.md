@@ -13,14 +13,14 @@ This module provides a code generator for [Shift format](https://github.com/shap
 ## Installation
 
 ```sh
-npm install shift-codegen
+npm install sp-shift-codegen
 ```
 
 
 ## Usage
 
 ```js
-import codegen from "shift-codegen";
+import codegen from "sp-shift-codegen";
 let programSource = codegen(/* Shift format AST */);
 ```
 
@@ -28,7 +28,7 @@ Location information is available in environments which support WeakMap via an a
 ```js
 let tree = parseScript('foo(); bar;');
 
-import { codeGenWithLocation } from "shift-codegen";
+import { codeGenWithLocation } from "sp-shift-codegen";
 let { source, locations } = codeGenWithLocation(tree);
 source; // 'foo();bar';
 locations.get(tree.statements[0].expression); // { start: { line: 1, column: 0, offset: 0 }, end: { line: 1, column: 5, offset: 5 } }
